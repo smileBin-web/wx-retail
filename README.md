@@ -77,13 +77,9 @@ onLoad: function() {
 
 `options` 可选，为普通对象，可配置的选项有：
 
-参数 | 类型
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
 
 参数 | 类型 | 必填 | 默认 | 说明 
----- | ----| ----| ----| ----| ----
+------------------| ------------| ---| -----| -----------------
 | withLoadingTips | Boolean | 否 | true | 是否展示loading 状态
 | successTips | Boolean或String | 否 | false | 请求成功时的提示行为。false: 不提示; true: 提示内容为后台接口返回的msg; String: 提示自定义的字符串
 | failureTips | Boolean或String | 否 | true | 请求失败时的提示行为。false: 不提示; true: 提示内容为后台接口返回的msg; String: 提示自定义的字符串
