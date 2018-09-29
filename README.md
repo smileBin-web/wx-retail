@@ -77,6 +77,11 @@ onLoad: function() {
 
 `options` 可选，为普通对象，可配置的选项有：
 
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
 参数 | 类型 | 必填 | 默认 | 说明 
 ---- | ----| ----| ----| ----| ----
 | withLoadingTips | Boolean | 否 | true | 是否展示loading 状态
